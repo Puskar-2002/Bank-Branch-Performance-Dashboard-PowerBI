@@ -15,7 +15,9 @@ The project is built as a **real-world banking analytics use case** and is suita
 
 [![Bank Branch Performance Dashboard](Dashboard%20Power%20Bi.png)](https://github.com/Puskar-2002/Bank-Branch-Performance-PowerBI/blob/main/Dashboard%20Power%20Bi.png)
 
+## 📂 Dataset Used
 
+[View Dataset](https://github.com/Puskar-2002/Bank-Branch-Performance-PowerBI/blob/main/Bank_Branch_Performance_Dataset.xlsx)
 
 
 ## 🧠 Business Problem
@@ -76,6 +78,16 @@ These KPIs collectively provide a balanced view of **growth, profitability, and 
 The East region requires closer monitoring and stronger risk-control measures.
 
 ---
+## 📂 Files in This Repository
+
+| File Name | Description |
+|---------|-------------|
+| `Bank_Branch_Performance.pbix` | Main Power BI dashboard file |
+| `Bank_Branch_Performance_Dataset.xlsx` | Dataset used for analysis |
+| `Dashboard Power Bi.png` | Screenshot of the Power BI dashboard |
+| `Measures_DAX.txt` | DAX measures used in the dashboard |
+| `README.md` | Complete project documentation |
+
 
 ### 🔹 2. Revenue Contribution – *Total Revenue by Region*
 - The **South region** contributes the highest share of total revenue.
@@ -180,8 +192,8 @@ Supports strategic planning and operational improvements
 
 Enables data-driven decision-making for banking leadership
 
-👤 Author
-Your Name
-Power BI Developer | Data Analyst
+👤 Author:
 
-🔗 LinkedIn: Add your LinkedIn profile link
+Puskar Sarkar
+Aspiring Data Analyst | Excel | SQL | Power BI | Python
+🔗 LinkedIn: https://www.linkedin.com/in/puskarsarkar02/
