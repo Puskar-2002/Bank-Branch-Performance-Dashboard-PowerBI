@@ -1,0 +1,59 @@
+-- ============================
+-- BANK BRANCH PERFORMANCE
+-- POWER BI – DAX MEASURES
+-- ============================
+
+-- ============================
+-- CORE KPIs
+-- ============================
+
+Total Branches =
+DISTINCTCOUNT ( Fact_BranchPerformance[Branch_ID] )
+
+Total Deposits =
+SUM ( Fact_BranchPerformance[Total_Deposits] )
+
+Total Loans =
+SUM ( Fact_BranchPerformance[Total_Loans] )
+
+Total Revenue =
+SUM ( Fact_BranchPerformance[Revenue] )
+
+Total Expense =
+SUM ( Fact_BranchPerformance[Expense] )
+
+Net Profit =
+[Total Revenue] - [Total Expense]
+
+-- ============================
+-- CUSTOMER METRICS
+-- ============================
+
+Customer Growth =
+SUM ( Fact_BranchPerformance[New_Customers] )
+- SUM ( Fact_BranchPerformance[Closed_Customers] )
+
+Customer Growth % =
+DIVIDE (
+    [Customer Growth],
+    SUM ( Fact_BranchPerformance[Closed_Customers] ),
+    0
+)
+
+-- ============================
+-- NPA METRICS
+-- ============================
+
+NPA Amount =
+SUM ( Fact_BranchPerformance[NPA_Amount] )
+
+NPA % =
+DIVIDE (
+    [NPA Amount],
+    [Total Loans],
+    0
+)
+
+-- ============================
+-- END OF FILE
+-- ============================
