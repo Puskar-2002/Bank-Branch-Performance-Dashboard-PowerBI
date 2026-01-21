@@ -15,11 +15,6 @@ The project is built as a **real-world banking analytics use case** and is suita
 
 [![Bank Branch Performance Dashboard](Dashboard%20Power%20Bi.png)](https://github.com/Puskar-2002/Bank-Branch-Performance-PowerBI/blob/main/Dashboard%20Power%20Bi.png)
 
-## 📂 Dataset Used
-
-[View Dataset](https://github.com/Puskar-2002/Bank-Branch-Performance-PowerBI/blob/main/Bank_Branch_Performance_Dataset.xlsx)
-
-
 ## 🧠 Business Problem
 Banks operate through multiple branches spread across regions and cities. Tracking performance manually or through static reports makes it difficult to:
 
